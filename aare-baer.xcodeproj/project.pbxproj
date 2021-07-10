@@ -14,6 +14,7 @@
 		CE046AFC269991D2002914EC /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CE046AFB269991D2002914EC /* cities.json */; };
 		CE046AFE2699927F002914EC /* bundle-decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046AFD2699927F002914EC /* bundle-decode.swift */; };
 		CE046B0026999299002914EC /* cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046AFF26999298002914EC /* cities.swift */; };
+		CE046B032699CC36002914EC /* temperatur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B022699CC36002914EC /* temperatur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CE046AFD2699927F002914EC /* bundle-decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bundle-decode.swift"; sourceTree = "<group>"; };
 		CE046AFF26999298002914EC /* cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cities.swift; sourceTree = "<group>"; };
 		CE046B012699930D002914EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE046B022699CC36002914EC /* temperatur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperatur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				CE046AEC269991A7002914EC /* aare_baerApp.swift */,
 				CE046AEE269991A7002914EC /* ContentView.swift */,
+				CE046B022699CC36002914EC /* temperatur.swift */,
 				CE046AFD2699927F002914EC /* bundle-decode.swift */,
 				CE046AFF26999298002914EC /* cities.swift */,
 				CE046AF0269991A8002914EC /* Assets.xcassets */,
@@ -154,6 +157,7 @@
 				CE046AFE2699927F002914EC /* bundle-decode.swift in Sources */,
 				CE046AEF269991A7002914EC /* ContentView.swift in Sources */,
 				CE046AED269991A7002914EC /* aare_baerApp.swift in Sources */,
+				CE046B032699CC36002914EC /* temperatur.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
