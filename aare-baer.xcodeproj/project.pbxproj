@@ -12,6 +12,8 @@
 		CE046AF1269991A8002914EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE046AF0269991A8002914EC /* Assets.xcassets */; };
 		CE046AF4269991A8002914EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE046AF3269991A8002914EC /* Preview Assets.xcassets */; };
 		CE046AFC269991D2002914EC /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = CE046AFB269991D2002914EC /* cities.json */; };
+		CE046AFE2699927F002914EC /* bundle-decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046AFD2699927F002914EC /* bundle-decode.swift */; };
+		CE046B0026999299002914EC /* cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046AFF26999298002914EC /* cities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		CE046AF3269991A8002914EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE046AF5269991A8002914EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE046AFB269991D2002914EC /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		CE046AFD2699927F002914EC /* bundle-decode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "bundle-decode.swift"; sourceTree = "<group>"; };
+		CE046AFF26999298002914EC /* cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cities.swift; sourceTree = "<group>"; };
+		CE046B012699930D002914EC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 		CE046AE0269991A7002914EC = {
 			isa = PBXGroup;
 			children = (
+				CE046B012699930D002914EC /* README.md */,
 				CE046AEB269991A7002914EC /* aare-baer */,
 				CE046AEA269991A7002914EC /* Products */,
 			);
@@ -56,6 +62,8 @@
 			children = (
 				CE046AEC269991A7002914EC /* aare_baerApp.swift */,
 				CE046AEE269991A7002914EC /* ContentView.swift */,
+				CE046AFD2699927F002914EC /* bundle-decode.swift */,
+				CE046AFF26999298002914EC /* cities.swift */,
 				CE046AF0269991A8002914EC /* Assets.xcassets */,
 				CE046AFB269991D2002914EC /* cities.json */,
 				CE046AF5269991A8002914EC /* Info.plist */,
@@ -142,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE046B0026999299002914EC /* cities.swift in Sources */,
+				CE046AFE2699927F002914EC /* bundle-decode.swift in Sources */,
 				CE046AEF269991A7002914EC /* ContentView.swift in Sources */,
 				CE046AED269991A7002914EC /* aare_baerApp.swift in Sources */,
 			);
