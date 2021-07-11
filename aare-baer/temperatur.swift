@@ -11,7 +11,7 @@ struct temperatur: View {
     
     let aarefontblue = Color(red: 0, green: 111.0/255.0, blue: 186.0/255.0)
     
-    @ObservedObject var cities: CityData
+    @ObservedObject var current: CurrentData
     
     var body: some View {
         ZStack {
@@ -35,36 +35,49 @@ struct temperatur: View {
                 Text("🧸")
                     .font(.system(size: 70))
                     .padding()
-                Text("\(cities.cities[3].aare_prec, specifier: "%.2f")°")
+                Text("\(current.current.aare.temperature_prec, specifier: "%.2f")°")
                     .font(.custom("DIN Condensed Bold", size: 90))
                     .foregroundColor(aarefontblue)
-                Text("Aaretemperatur z Bärn, 11.11 \n i 2h isches ca. 15.6")
+                Text("Aaretemperatur z \(current.current.aare.location), am \(current.current.aare.timestring) \n i 2h isches ca. \(current.current.aare.forecast2h, specifier: "%.1f")°")
                     .font(.custom("DIN Condensed Bold", size: 18))
                     .multilineTextAlignment(.center)
                     .foregroundColor(aarefontblue)
                     .padding()
-                Text("d Aare isch fou")
+                Text(current.current.aare.temperature_text)
                     .font(.custom("DIN Condensed Bold", size: 40))
                     .foregroundColor(aarefontblue)
                     .padding()
                 
                 HStack {
                     VStack {
-                        Text("405")
+                        Text("\(current.current.aare.flow)")
                             .font(.custom("DIN Condensed Bold", size: 70))
                         Text("Wasser in kubik")
+                            .font(.custom("DIN Condensed Bold", size: 18))
+                        Text(current.current.aare.flow_text)
                             .font(.custom("DIN Condensed Bold", size: 18))
                     }
                     .foregroundColor(aarefontblue)
                     VStack(alignment: .center) {
-                        Image(systemName: "minus.circle.fill")
-                            .renderingMode(.original)
-                            .font(.system(size: 60))
+                        Text("Kanau")
+                            .font(.custom("DIN Condensed Bold", size: 18))
+                            .foregroundColor(aarefontblue)
+                        if current.current.bueber.state_open_flag {
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundColor(aarefontblue)
+                                .font(.system(size: 60))
+                        }
+                        else {
+                            Image(systemName: "minus.circle.fill")
+                                .renderingMode(.original)
+                                .font(.system(size: 60))
+                        }
+                        
                         
                     }
                     
                     VStack {
-                        Text("23.5°")
+                        Text("\(current.current.weather.current.tt, specifier: "%.1f")°")
                             .font(.custom("DIN Condensed Bold", size: 70))
                         Text("Lufttemperatur")
                             .font(.custom("DIN Condensed Bold", size: 18))
@@ -81,6 +94,6 @@ struct temperatur: View {
 
 struct temperatur_Previews: PreviewProvider {
     static var previews: some View {
-        temperatur(cities: CityData())
+        temperatur(current: CurrentData())
     }
 }

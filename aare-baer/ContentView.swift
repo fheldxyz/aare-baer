@@ -17,11 +17,12 @@ struct ContentView: View {
     let aareblue = Color(red: 10.0/255.0, green: 230.0/255.0, blue: 1.0)
     
     @ObservedObject var cities = CityData()
+    @ObservedObject var current = CurrentData()
     
     
     var body: some View {
         TabView {
-            temperatur(cities: cities)
+            temperatur(current: current)
             .tabItem {
                 Image(systemName: "thermometer")
             }
@@ -30,6 +31,7 @@ struct ContentView: View {
                 
                 Button("load") {
                     cities.loadfromAPI()
+                    current.loadfromAPI()
                 }
             
             }

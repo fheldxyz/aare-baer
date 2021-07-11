@@ -1,0 +1,2545 @@
+{
+  "aare": {
+    "location": "Bärn",
+    "location_long": "Bern, Schönau",
+    "coordinates": {
+      "lat": 46.93,
+      "lon": 7.45
+    },
+    "forecast": false,
+    "timestamp": 1626001200,
+    "timestring": "13:00",
+    "temperature": 14.4,
+    "temperature_prec": 14.36,
+    "temperature_text": "d Aare isch vou",
+    "temperature_text_short": "Gschider lasii",
+    "flow": 406,
+    "flow_text": "⚠️ extrem viu!",
+    "forecast2h": 14.5,
+    "forecast2h_text": "Blibt äuä öpe glich",
+    "temperature_scale": [
+      {
+        "value": 1,
+        "text": "Iglu boue bringts meh",
+        "position": "start"
+      },
+      {
+        "value": 12,
+        "text": "Las vilech gschider lasii",
+        "position": "start"
+      },
+      {
+        "value": 16,
+        "text": "Viu chauts Wasser",
+        "position": "start"
+      },
+      {
+        "value": 17,
+        "text": "Mit de Boumstäm schwümme",
+        "position": "start"
+      },
+      {
+        "value": 18,
+        "text": "Rächt gut. Mit viu Wasser",
+        "position": "start"
+      },
+      {
+        "value": 19,
+        "text": "Es het mega schriis",
+        "position": "start"
+      },
+      {
+        "value": 21,
+        "text": "Es het megaviu schriis",
+        "position": "start"
+      },
+      {
+        "value": 22,
+        "text": "Spaghettiwasser",
+        "position": "start"
+      }
+    ],
+    "flow_scale": [
+      {
+        "value": 50,
+        "text": "nid viu",
+        "position": "start"
+      },
+      {
+        "value": 100,
+        "text": "eher wenig",
+        "position": "start"
+      },
+      {
+        "value": 150,
+        "text": "ganz gäbig",
+        "position": "start"
+      },
+      {
+        "value": 200,
+        "text": "ender viu",
+        "position": "start"
+      },
+      {
+        "value": 250,
+        "text": "mega viu",
+        "position": "start"
+      },
+      {
+        "value": 300,
+        "text": "brutal viu!",
+        "position": "start"
+      },
+      {
+        "value": 360,
+        "text": "extrem viu!",
+        "position": "start"
+      },
+      {
+        "value": 430,
+        "text": "hochwasser!",
+        "position": "start"
+      },
+      {
+        "value": 500,
+        "text": "mega hochwasser!",
+        "position": "start"
+      },
+      {
+        "value": 560,
+        "text": "jahrhunderthochwasser!",
+        "position": "start"
+      }
+    ]
+  },
+  "aarepast": [
+    {
+      "timestamp": 1625830200,
+      "flow": 375,
+      "temperature": 15.42
+    },
+    {
+      "timestamp": 1625830800,
+      "flow": 375,
+      "temperature": 15.46
+    },
+    {
+      "timestamp": 1625831400,
+      "flow": 376,
+      "temperature": 15.49
+    },
+    {
+      "timestamp": 1625832000,
+      "flow": 379,
+      "temperature": 15.54
+    },
+    {
+      "timestamp": 1625832600,
+      "flow": 380,
+      "temperature": 15.61
+    },
+    {
+      "timestamp": 1625833200,
+      "flow": 383,
+      "temperature": 15.66
+    },
+    {
+      "timestamp": 1625833800,
+      "flow": 385,
+      "temperature": 15.66
+    },
+    {
+      "timestamp": 1625834400,
+      "flow": 387,
+      "temperature": 15.69
+    },
+    {
+      "timestamp": 1625835600,
+      "flow": 389,
+      "temperature": 15.69
+    },
+    {
+      "timestamp": 1625836200,
+      "flow": 392,
+      "temperature": 15.7
+    },
+    {
+      "timestamp": 1625836800,
+      "flow": 392,
+      "temperature": 15.71
+    },
+    {
+      "timestamp": 1625837400,
+      "flow": 395,
+      "temperature": 15.7
+    },
+    {
+      "timestamp": 1625838000,
+      "flow": 396,
+      "temperature": 15.7
+    },
+    {
+      "timestamp": 1625838600,
+      "flow": 398,
+      "temperature": 15.72
+    },
+    {
+      "timestamp": 1625839200,
+      "flow": 400,
+      "temperature": 15.72
+    },
+    {
+      "timestamp": 1625839800,
+      "flow": 403,
+      "temperature": 15.76
+    },
+    {
+      "timestamp": 1625840400,
+      "flow": 402,
+      "temperature": 15.81
+    },
+    {
+      "timestamp": 1625841600,
+      "flow": 404,
+      "temperature": 15.81
+    },
+    {
+      "timestamp": 1625842200,
+      "flow": 405,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625842800,
+      "flow": 406,
+      "temperature": 15.84
+    },
+    {
+      "timestamp": 1625843400,
+      "flow": 407,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625844000,
+      "flow": 407,
+      "temperature": 15.86
+    },
+    {
+      "timestamp": 1625845200,
+      "flow": 406,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625845800,
+      "flow": 406,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625846400,
+      "flow": 407,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625847600,
+      "flow": 408,
+      "temperature": 15.88
+    },
+    {
+      "timestamp": 1625848200,
+      "flow": 407,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625848800,
+      "flow": 408,
+      "temperature": 15.85
+    },
+    {
+      "timestamp": 1625849400,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625850000,
+      "flow": 408,
+      "temperature": 15.81
+    },
+    {
+      "timestamp": 1625850600,
+      "flow": 408,
+      "temperature": 15.81
+    },
+    {
+      "timestamp": 1625851200,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625851800,
+      "flow": 408,
+      "temperature": 15.84
+    },
+    {
+      "timestamp": 1625852400,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625853000,
+      "flow": 408,
+      "temperature": 15.82
+    },
+    {
+      "timestamp": 1625853600,
+      "flow": 408,
+      "temperature": 15.82
+    },
+    {
+      "timestamp": 1625854200,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625854800,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625855400,
+      "flow": 408,
+      "temperature": 15.83
+    },
+    {
+      "timestamp": 1625856000,
+      "flow": 409,
+      "temperature": 15.82
+    },
+    {
+      "timestamp": 1625856600,
+      "flow": 409,
+      "temperature": 15.81
+    },
+    {
+      "timestamp": 1625857200,
+      "flow": 409,
+      "temperature": 15.8
+    },
+    {
+      "timestamp": 1625858400,
+      "flow": 408,
+      "temperature": 15.76
+    },
+    {
+      "timestamp": 1625859600,
+      "flow": 407,
+      "temperature": 15.69
+    },
+    {
+      "timestamp": 1625860800,
+      "flow": 407,
+      "temperature": 15.61
+    },
+    {
+      "timestamp": 1625862000,
+      "flow": 407,
+      "temperature": 15.54
+    },
+    {
+      "timestamp": 1625863200,
+      "flow": 407,
+      "temperature": 15.46
+    },
+    {
+      "timestamp": 1625864400,
+      "flow": 406,
+      "temperature": 15.39
+    },
+    {
+      "timestamp": 1625865600,
+      "flow": 405,
+      "temperature": 15.33
+    },
+    {
+      "timestamp": 1625866800,
+      "flow": 406,
+      "temperature": 15.28
+    },
+    {
+      "timestamp": 1625868000,
+      "flow": 406,
+      "temperature": 15.24
+    },
+    {
+      "timestamp": 1625869200,
+      "flow": 405,
+      "temperature": 15.19
+    },
+    {
+      "timestamp": 1625870400,
+      "flow": 407,
+      "temperature": 15.14
+    },
+    {
+      "timestamp": 1625871000,
+      "flow": 407,
+      "temperature": 15.11
+    },
+    {
+      "timestamp": 1625872200,
+      "flow": 407,
+      "temperature": 15.05
+    },
+    {
+      "timestamp": 1625873400,
+      "flow": 407,
+      "temperature": 14.99
+    },
+    {
+      "timestamp": 1625874000,
+      "flow": 407,
+      "temperature": 14.96
+    },
+    {
+      "timestamp": 1625874600,
+      "flow": 408,
+      "temperature": 14.94
+    },
+    {
+      "timestamp": 1625875800,
+      "flow": 408,
+      "temperature": 14.9
+    },
+    {
+      "timestamp": 1625877000,
+      "flow": 408,
+      "temperature": 14.87
+    },
+    {
+      "timestamp": 1625877600,
+      "flow": 408,
+      "temperature": 14.86
+    },
+    {
+      "timestamp": 1625878800,
+      "flow": 409,
+      "temperature": 14.83
+    },
+    {
+      "timestamp": 1625879400,
+      "flow": 409,
+      "temperature": 14.82
+    },
+    {
+      "timestamp": 1625880600,
+      "flow": 409,
+      "temperature": 14.81
+    },
+    {
+      "timestamp": 1625881200,
+      "flow": 409,
+      "temperature": 14.81
+    },
+    {
+      "timestamp": 1625881800,
+      "flow": 409,
+      "temperature": 14.8
+    },
+    {
+      "timestamp": 1625883000,
+      "flow": 409,
+      "temperature": 14.78
+    },
+    {
+      "timestamp": 1625883600,
+      "flow": 409,
+      "temperature": 14.77
+    },
+    {
+      "timestamp": 1625884800,
+      "flow": 410,
+      "temperature": 14.75
+    },
+    {
+      "timestamp": 1625886000,
+      "flow": 409,
+      "temperature": 14.72
+    },
+    {
+      "timestamp": 1625886600,
+      "flow": 410,
+      "temperature": 14.7
+    },
+    {
+      "timestamp": 1625887200,
+      "flow": 409,
+      "temperature": 14.69
+    },
+    {
+      "timestamp": 1625888400,
+      "flow": 410,
+      "temperature": 14.67
+    },
+    {
+      "timestamp": 1625889600,
+      "flow": 410,
+      "temperature": 14.64
+    },
+    {
+      "timestamp": 1625890200,
+      "flow": 410,
+      "temperature": 14.63
+    },
+    {
+      "timestamp": 1625890800,
+      "flow": 410,
+      "temperature": 14.62
+    },
+    {
+      "timestamp": 1625891400,
+      "flow": 409,
+      "temperature": 14.6
+    },
+    {
+      "timestamp": 1625892000,
+      "flow": 409,
+      "temperature": 14.57
+    },
+    {
+      "timestamp": 1625892600,
+      "flow": 409,
+      "temperature": 14.55
+    },
+    {
+      "timestamp": 1625893200,
+      "flow": 409,
+      "temperature": 14.52
+    },
+    {
+      "timestamp": 1625894400,
+      "flow": 409,
+      "temperature": 14.47
+    },
+    {
+      "timestamp": 1625895000,
+      "flow": 410,
+      "temperature": 14.45
+    },
+    {
+      "timestamp": 1625896200,
+      "flow": 409,
+      "temperature": 14.42
+    },
+    {
+      "timestamp": 1625896800,
+      "flow": 409,
+      "temperature": 14.41
+    },
+    {
+      "timestamp": 1625897400,
+      "flow": 410,
+      "temperature": 14.4
+    },
+    {
+      "timestamp": 1625898000,
+      "flow": 409,
+      "temperature": 14.4
+    },
+    {
+      "timestamp": 1625898600,
+      "flow": 410,
+      "temperature": 14.41
+    },
+    {
+      "timestamp": 1625899200,
+      "flow": 409,
+      "temperature": 14.42
+    },
+    {
+      "timestamp": 1625899800,
+      "flow": 409,
+      "temperature": 14.45
+    },
+    {
+      "timestamp": 1625900400,
+      "flow": 409,
+      "temperature": 14.47
+    },
+    {
+      "timestamp": 1625901000,
+      "flow": 408,
+      "temperature": 14.5
+    },
+    {
+      "timestamp": 1625901600,
+      "flow": 408,
+      "temperature": 14.53
+    },
+    {
+      "timestamp": 1625902200,
+      "flow": 408,
+      "temperature": 14.56
+    },
+    {
+      "timestamp": 1625902800,
+      "flow": 408,
+      "temperature": 14.59
+    },
+    {
+      "timestamp": 1625904000,
+      "flow": 408,
+      "temperature": 14.66
+    },
+    {
+      "timestamp": 1625904600,
+      "flow": 409,
+      "temperature": 14.7
+    },
+    {
+      "timestamp": 1625905200,
+      "flow": 408,
+      "temperature": 14.74
+    },
+    {
+      "timestamp": 1625905800,
+      "flow": 408,
+      "temperature": 14.78
+    },
+    {
+      "timestamp": 1625906400,
+      "flow": 409,
+      "temperature": 14.84
+    },
+    {
+      "timestamp": 1625907600,
+      "flow": 409,
+      "temperature": 14.96
+    },
+    {
+      "timestamp": 1625908200,
+      "flow": 408,
+      "temperature": 15.02
+    },
+    {
+      "timestamp": 1625908800,
+      "flow": 408,
+      "temperature": 15.08
+    },
+    {
+      "timestamp": 1625910000,
+      "flow": 408,
+      "temperature": 15.18
+    },
+    {
+      "timestamp": 1625910600,
+      "flow": 408,
+      "temperature": 15.24
+    },
+    {
+      "timestamp": 1625911800,
+      "flow": 408,
+      "temperature": 15.36
+    },
+    {
+      "timestamp": 1625912400,
+      "flow": 408,
+      "temperature": 15.42
+    },
+    {
+      "timestamp": 1625913000,
+      "flow": 407,
+      "temperature": 15.48
+    },
+    {
+      "timestamp": 1625913600,
+      "flow": 407,
+      "temperature": 15.54
+    },
+    {
+      "timestamp": 1625914200,
+      "flow": 407,
+      "temperature": 15.59
+    },
+    {
+      "timestamp": 1625914800,
+      "flow": 406,
+      "temperature": 15.63
+    },
+    {
+      "timestamp": 1625915400,
+      "flow": 406,
+      "temperature": 15.68
+    },
+    {
+      "timestamp": 1625916000,
+      "flow": 405,
+      "temperature": 15.72
+    },
+    {
+      "timestamp": 1625916600,
+      "flow": 404,
+      "temperature": 15.77
+    },
+    {
+      "timestamp": 1625917200,
+      "flow": 404,
+      "temperature": 15.82
+    },
+    {
+      "timestamp": 1625917800,
+      "flow": 404,
+      "temperature": 15.87
+    },
+    {
+      "timestamp": 1625918400,
+      "flow": 404,
+      "temperature": 15.91
+    },
+    {
+      "timestamp": 1625919000,
+      "flow": 404,
+      "temperature": 15.95
+    },
+    {
+      "timestamp": 1625919600,
+      "flow": 403,
+      "temperature": 15.98
+    },
+    {
+      "timestamp": 1625920800,
+      "flow": 404,
+      "temperature": 16.03
+    },
+    {
+      "timestamp": 1625921400,
+      "flow": 404,
+      "temperature": 16.05
+    },
+    {
+      "timestamp": 1625922000,
+      "flow": 404,
+      "temperature": 16.08
+    },
+    {
+      "timestamp": 1625922600,
+      "flow": 404,
+      "temperature": 16.11
+    },
+    {
+      "timestamp": 1625923200,
+      "flow": 404,
+      "temperature": 16.13
+    },
+    {
+      "timestamp": 1625925000,
+      "flow": 405,
+      "temperature": 16.18
+    },
+    {
+      "timestamp": 1625925600,
+      "flow": 405,
+      "temperature": 16.18
+    },
+    {
+      "timestamp": 1625926200,
+      "flow": 405,
+      "temperature": 16.19
+    },
+    {
+      "timestamp": 1625926800,
+      "flow": 404,
+      "temperature": 16.2
+    },
+    {
+      "timestamp": 1625928000,
+      "flow": 404,
+      "temperature": 16.22
+    },
+    {
+      "timestamp": 1625929200,
+      "flow": 405,
+      "temperature": 16.23
+    },
+    {
+      "timestamp": 1625930400,
+      "flow": 404,
+      "temperature": 16.26
+    },
+    {
+      "timestamp": 1625931000,
+      "flow": 403,
+      "temperature": 16.26
+    },
+    {
+      "timestamp": 1625931600,
+      "flow": 403,
+      "temperature": 16.25
+    },
+    {
+      "timestamp": 1625932200,
+      "flow": 404,
+      "temperature": 16.23
+    },
+    {
+      "timestamp": 1625932800,
+      "flow": 402,
+      "temperature": 16.2
+    },
+    {
+      "timestamp": 1625934000,
+      "flow": 403,
+      "temperature": 16.15
+    },
+    {
+      "timestamp": 1625935200,
+      "flow": 403,
+      "temperature": 16.08
+    },
+    {
+      "timestamp": 1625935800,
+      "flow": 403,
+      "temperature": 16.04
+    },
+    {
+      "timestamp": 1625936400,
+      "flow": 403,
+      "temperature": 15.97
+    },
+    {
+      "timestamp": 1625937000,
+      "flow": 403,
+      "temperature": 15.9
+    },
+    {
+      "timestamp": 1625937600,
+      "flow": 403,
+      "temperature": 15.82
+    },
+    {
+      "timestamp": 1625938200,
+      "flow": 403,
+      "temperature": 15.74
+    },
+    {
+      "timestamp": 1625938800,
+      "flow": 403,
+      "temperature": 15.68
+    },
+    {
+      "timestamp": 1625939400,
+      "flow": 404,
+      "temperature": 15.62
+    },
+    {
+      "timestamp": 1625940000,
+      "flow": 403,
+      "temperature": 15.56
+    },
+    {
+      "timestamp": 1625941200,
+      "flow": 403,
+      "temperature": 15.44
+    },
+    {
+      "timestamp": 1625941800,
+      "flow": 403,
+      "temperature": 15.38
+    },
+    {
+      "timestamp": 1625942400,
+      "flow": 404,
+      "temperature": 15.32
+    },
+    {
+      "timestamp": 1625943000,
+      "flow": 404,
+      "temperature": 15.27
+    },
+    {
+      "timestamp": 1625943600,
+      "flow": 403,
+      "temperature": 15.21
+    },
+    {
+      "timestamp": 1625944800,
+      "flow": 401,
+      "temperature": 15.11
+    },
+    {
+      "timestamp": 1625945400,
+      "flow": 400,
+      "temperature": 15.07
+    },
+    {
+      "timestamp": 1625946600,
+      "flow": 397,
+      "temperature": 15.02
+    },
+    {
+      "timestamp": 1625947200,
+      "flow": 395,
+      "temperature": 14.99
+    },
+    {
+      "timestamp": 1625948400,
+      "flow": 388,
+      "temperature": 14.96
+    },
+    {
+      "timestamp": 1625949000,
+      "flow": 385,
+      "temperature": 14.95
+    },
+    {
+      "timestamp": 1625949600,
+      "flow": 381,
+      "temperature": 14.94
+    },
+    {
+      "timestamp": 1625950200,
+      "flow": 378,
+      "temperature": 14.93
+    },
+    {
+      "timestamp": 1625950800,
+      "flow": 375,
+      "temperature": 14.9
+    },
+    {
+      "timestamp": 1625951400,
+      "flow": 373,
+      "temperature": 14.85
+    },
+    {
+      "timestamp": 1625952000,
+      "flow": 372,
+      "temperature": 14.8
+    },
+    {
+      "timestamp": 1625953200,
+      "flow": 370,
+      "temperature": 14.71
+    },
+    {
+      "timestamp": 1625954400,
+      "flow": 368,
+      "temperature": 14.62
+    },
+    {
+      "timestamp": 1625955600,
+      "flow": 368,
+      "temperature": 14.45
+    },
+    {
+      "timestamp": 1625956800,
+      "flow": 367,
+      "temperature": 14.24
+    },
+    {
+      "timestamp": 1625958000,
+      "flow": 369,
+      "temperature": 14.06
+    },
+    {
+      "timestamp": 1625958600,
+      "flow": 369,
+      "temperature": 13.98
+    },
+    {
+      "timestamp": 1625959200,
+      "flow": 371,
+      "temperature": 13.91
+    },
+    {
+      "timestamp": 1625960400,
+      "flow": 373,
+      "temperature": 13.8
+    },
+    {
+      "timestamp": 1625961000,
+      "flow": 375,
+      "temperature": 13.77
+    },
+    {
+      "timestamp": 1625961600,
+      "flow": 376,
+      "temperature": 13.73
+    },
+    {
+      "timestamp": 1625962800,
+      "flow": 378,
+      "temperature": 13.63
+    },
+    {
+      "timestamp": 1625963400,
+      "flow": 380,
+      "temperature": 13.58
+    },
+    {
+      "timestamp": 1625964000,
+      "flow": 381,
+      "temperature": 13.52
+    },
+    {
+      "timestamp": 1625965200,
+      "flow": 382,
+      "temperature": 13.41
+    },
+    {
+      "timestamp": 1625966400,
+      "flow": 383,
+      "temperature": 13.34
+    },
+    {
+      "timestamp": 1625967000,
+      "flow": 384,
+      "temperature": 13.34
+    },
+    {
+      "timestamp": 1625967600,
+      "flow": 385,
+      "temperature": 13.37
+    },
+    {
+      "timestamp": 1625968200,
+      "flow": 385,
+      "temperature": 13.43
+    },
+    {
+      "timestamp": 1625968800,
+      "flow": 385,
+      "temperature": 13.5
+    },
+    {
+      "timestamp": 1625969400,
+      "flow": 385,
+      "temperature": 13.58
+    },
+    {
+      "timestamp": 1625970000,
+      "flow": 385,
+      "temperature": 13.67
+    },
+    {
+      "timestamp": 1625970600,
+      "flow": 385,
+      "temperature": 13.74
+    },
+    {
+      "timestamp": 1625971200,
+      "flow": 385,
+      "temperature": 13.79
+    },
+    {
+      "timestamp": 1625972400,
+      "flow": 383,
+      "temperature": 13.86
+    },
+    {
+      "timestamp": 1625973600,
+      "flow": 383,
+      "temperature": 13.9
+    },
+    {
+      "timestamp": 1625974200,
+      "flow": 381,
+      "temperature": 13.9
+    },
+    {
+      "timestamp": 1625974800,
+      "flow": 381,
+      "temperature": 13.89
+    },
+    {
+      "timestamp": 1625976000,
+      "flow": 381,
+      "temperature": 13.88
+    },
+    {
+      "timestamp": 1625976600,
+      "flow": 380,
+      "temperature": 13.88
+    },
+    {
+      "timestamp": 1625977200,
+      "flow": 380,
+      "temperature": 13.88
+    },
+    {
+      "timestamp": 1625977800,
+      "flow": 379,
+      "temperature": 13.89
+    },
+    {
+      "timestamp": 1625978400,
+      "flow": 378,
+      "temperature": 13.9
+    },
+    {
+      "timestamp": 1625979000,
+      "flow": 378,
+      "temperature": 13.91
+    },
+    {
+      "timestamp": 1625979600,
+      "flow": 378,
+      "temperature": 13.91
+    },
+    {
+      "timestamp": 1625980200,
+      "flow": 377,
+      "temperature": 13.92
+    },
+    {
+      "timestamp": 1625980800,
+      "flow": 377,
+      "temperature": 13.92
+    },
+    {
+      "timestamp": 1625982000,
+      "flow": 376,
+      "temperature": 13.92
+    },
+    {
+      "timestamp": 1625983200,
+      "flow": 376,
+      "temperature": 13.93
+    },
+    {
+      "timestamp": 1625983800,
+      "flow": 378,
+      "temperature": 13.95
+    },
+    {
+      "timestamp": 1625984400,
+      "flow": 379,
+      "temperature": 13.95
+    },
+    {
+      "timestamp": 1625985000,
+      "flow": 382,
+      "temperature": 13.95
+    },
+    {
+      "timestamp": 1625985600,
+      "flow": 384,
+      "temperature": 13.96
+    },
+    {
+      "timestamp": 1625986200,
+      "flow": 386,
+      "temperature": 13.97
+    },
+    {
+      "timestamp": 1625986800,
+      "flow": 389,
+      "temperature": 14.01
+    },
+    {
+      "timestamp": 1625987400,
+      "flow": 392,
+      "temperature": 14.03
+    },
+    {
+      "timestamp": 1625988000,
+      "flow": 394,
+      "temperature": 14.05
+    },
+    {
+      "timestamp": 1625989200,
+      "flow": 399,
+      "temperature": 14.1
+    },
+    {
+      "timestamp": 1625989800,
+      "flow": 401,
+      "temperature": 14.12
+    },
+    {
+      "timestamp": 1625990400,
+      "flow": 402,
+      "temperature": 14.14
+    },
+    {
+      "timestamp": 1625991600,
+      "flow": 404,
+      "temperature": 14.17
+    },
+    {
+      "timestamp": 1625992200,
+      "flow": 405,
+      "temperature": 14.18
+    },
+    {
+      "timestamp": 1625992800,
+      "flow": 405,
+      "temperature": 14.18
+    },
+    {
+      "timestamp": 1625993400,
+      "flow": 405,
+      "temperature": 14.19
+    },
+    {
+      "timestamp": 1625994000,
+      "flow": 405,
+      "temperature": 14.2
+    },
+    {
+      "timestamp": 1625994600,
+      "flow": 406,
+      "temperature": 14.2
+    },
+    {
+      "timestamp": 1625995200,
+      "flow": 406,
+      "temperature": 14.21
+    },
+    {
+      "timestamp": 1625996400,
+      "flow": 406,
+      "temperature": 14.23
+    },
+    {
+      "timestamp": 1625997000,
+      "flow": 406,
+      "temperature": 14.24
+    },
+    {
+      "timestamp": 1625997600,
+      "flow": 406,
+      "temperature": 14.26
+    },
+    {
+      "timestamp": 1625998200,
+      "flow": 406,
+      "temperature": 14.28
+    },
+    {
+      "timestamp": 1625998800,
+      "flow": 405,
+      "temperature": 14.27
+    },
+    {
+      "timestamp": 1625999400,
+      "flow": 406,
+      "temperature": 14.25
+    },
+    {
+      "timestamp": 1626000000,
+      "flow": 405,
+      "temperature": 14.27
+    },
+    {
+      "timestamp": 1626000600,
+      "flow": 405,
+      "temperature": 14.31
+    },
+    {
+      "timestamp": 1626001200,
+      "flow": 405,
+      "temperature": 14.36
+    }
+  ],
+  "weather": {
+    "current": {
+      "tt": 19.9,
+      "rr": 0,
+      "rrreal": 0,
+      "timestamp": 1626001200,
+      "timestring": "13:00"
+    },
+    "today": {
+      "v": {
+        "sy": "b",
+        "syt": "zimlech sunnig",
+        "symt": 2,
+        "tt": 19,
+        "rr": 0,
+        "rrisk": 0
+      },
+      "n": {
+        "sy": "b",
+        "syt": "zimlech sunnig",
+        "symt": 2,
+        "tt": 23,
+        "rr": 0,
+        "rrisk": 30
+      },
+      "a": {
+        "sy": "a",
+        "syt": "sunnig",
+        "symt": 1,
+        "tt": 24,
+        "rr": 0,
+        "rrisk": 0
+      }
+    },
+    "forecast": [
+      {
+        "day": "Mänti",
+        "dayshort": "Mo.",
+        "timestamp": 1626089300,
+        "sy": "e",
+        "syt": "wärmegwitter",
+        "symt": 5,
+        "tx": 25,
+        "tn": 12,
+        "rr": 11,
+        "rrisk": 90
+      },
+      {
+        "day": "Zischti",
+        "dayshort": "Di.",
+        "timestamp": 1626175700,
+        "sy": "k",
+        "syt": "liechts rägeli",
+        "symt": 11,
+        "tx": 17,
+        "tn": 14,
+        "rr": 25,
+        "rrisk": 90
+      },
+      {
+        "day": "Mitwuch",
+        "dayshort": "Mi.",
+        "timestamp": 1626262100,
+        "sy": "f",
+        "syt": "starche räge",
+        "symt": 6,
+        "tx": 15,
+        "tn": 12,
+        "rr": 18,
+        "rrisk": 80
+      },
+      {
+        "day": "Donschti",
+        "dayshort": "Do.",
+        "timestamp": 1626348500,
+        "sy": "j",
+        "syt": "e gutsch",
+        "symt": 10,
+        "tx": 18,
+        "tn": 12,
+        "rr": 11,
+        "rrisk": 80
+      }
+    ]
+  },
+  "weatherpast": [
+    {
+      "timestamp": 1625830200,
+      "tt": 19
+    },
+    {
+      "timestamp": 1625830800,
+      "tt": 19.4
+    },
+    {
+      "timestamp": 1625831400,
+      "tt": 19.4
+    },
+    {
+      "timestamp": 1625832000,
+      "tt": 19.7
+    },
+    {
+      "timestamp": 1625832600,
+      "tt": 19.5
+    },
+    {
+      "timestamp": 1625833200,
+      "tt": 20.4
+    },
+    {
+      "timestamp": 1625833800,
+      "tt": 19.9
+    },
+    {
+      "timestamp": 1625834400,
+      "tt": 20.7
+    },
+    {
+      "timestamp": 1625835000,
+      "tt": 19.7
+    },
+    {
+      "timestamp": 1625835600,
+      "tt": 20.8
+    },
+    {
+      "timestamp": 1625836200,
+      "tt": 21.1
+    },
+    {
+      "timestamp": 1625836800,
+      "tt": 20.9
+    },
+    {
+      "timestamp": 1625837400,
+      "tt": 21.2
+    },
+    {
+      "timestamp": 1625838000,
+      "tt": 20.4
+    },
+    {
+      "timestamp": 1625838600,
+      "tt": 20.7
+    },
+    {
+      "timestamp": 1625839200,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625839800,
+      "tt": 21.7
+    },
+    {
+      "timestamp": 1625840400,
+      "tt": 20.6
+    },
+    {
+      "timestamp": 1625841000,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625841600,
+      "tt": 21.5
+    },
+    {
+      "timestamp": 1625842200,
+      "tt": 21.6
+    },
+    {
+      "timestamp": 1625842800,
+      "tt": 21.1
+    },
+    {
+      "timestamp": 1625843400,
+      "tt": 21.1
+    },
+    {
+      "timestamp": 1625844000,
+      "tt": 21.3
+    },
+    {
+      "timestamp": 1625844600,
+      "tt": 22
+    },
+    {
+      "timestamp": 1625845200,
+      "tt": 21.5
+    },
+    {
+      "timestamp": 1625845800,
+      "tt": 22.1
+    },
+    {
+      "timestamp": 1625846400,
+      "tt": 21.3
+    },
+    {
+      "timestamp": 1625847000,
+      "tt": 21.8
+    },
+    {
+      "timestamp": 1625847600,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625848200,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625848800,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625849400,
+      "tt": 21.5
+    },
+    {
+      "timestamp": 1625850000,
+      "tt": 21
+    },
+    {
+      "timestamp": 1625850600,
+      "tt": 21
+    },
+    {
+      "timestamp": 1625851200,
+      "tt": 20.9
+    },
+    {
+      "timestamp": 1625851800,
+      "tt": 20.8
+    },
+    {
+      "timestamp": 1625852400,
+      "tt": 20.8
+    },
+    {
+      "timestamp": 1625853000,
+      "tt": 20.2
+    },
+    {
+      "timestamp": 1625853600,
+      "tt": 19.6
+    },
+    {
+      "timestamp": 1625854200,
+      "tt": 19.4
+    },
+    {
+      "timestamp": 1625854800,
+      "tt": 19.4
+    },
+    {
+      "timestamp": 1625855400,
+      "tt": 18.8
+    },
+    {
+      "timestamp": 1625856000,
+      "tt": 18.8
+    },
+    {
+      "timestamp": 1625856600,
+      "tt": 18.8
+    },
+    {
+      "timestamp": 1625857200,
+      "tt": 18.5
+    },
+    {
+      "timestamp": 1625857800,
+      "tt": 18.3
+    },
+    {
+      "timestamp": 1625858400,
+      "tt": 17.8
+    },
+    {
+      "timestamp": 1625859000,
+      "tt": 16.9
+    },
+    {
+      "timestamp": 1625859600,
+      "tt": 16.3
+    },
+    {
+      "timestamp": 1625860200,
+      "tt": 15.9
+    },
+    {
+      "timestamp": 1625860800,
+      "tt": 16.2
+    },
+    {
+      "timestamp": 1625861400,
+      "tt": 16
+    },
+    {
+      "timestamp": 1625862000,
+      "tt": 16.1
+    },
+    {
+      "timestamp": 1625862600,
+      "tt": 15.8
+    },
+    {
+      "timestamp": 1625863200,
+      "tt": 15.6
+    },
+    {
+      "timestamp": 1625863800,
+      "tt": 15.6
+    },
+    {
+      "timestamp": 1625864400,
+      "tt": 15.1
+    },
+    {
+      "timestamp": 1625865000,
+      "tt": 15.1
+    },
+    {
+      "timestamp": 1625865600,
+      "tt": 14.7
+    },
+    {
+      "timestamp": 1625866200,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625866800,
+      "tt": 14.3
+    },
+    {
+      "timestamp": 1625867400,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625868000,
+      "tt": 13.8
+    },
+    {
+      "timestamp": 1625868600,
+      "tt": 14.3
+    },
+    {
+      "timestamp": 1625869200,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625869800,
+      "tt": 13.8
+    },
+    {
+      "timestamp": 1625870400,
+      "tt": 13.5
+    },
+    {
+      "timestamp": 1625871000,
+      "tt": 13.5
+    },
+    {
+      "timestamp": 1625871600,
+      "tt": 13.4
+    },
+    {
+      "timestamp": 1625872200,
+      "tt": 13.1
+    },
+    {
+      "timestamp": 1625872800,
+      "tt": 13.1
+    },
+    {
+      "timestamp": 1625873400,
+      "tt": 13.4
+    },
+    {
+      "timestamp": 1625874000,
+      "tt": 12.6
+    },
+    {
+      "timestamp": 1625874600,
+      "tt": 13.3
+    },
+    {
+      "timestamp": 1625875200,
+      "tt": 13
+    },
+    {
+      "timestamp": 1625875800,
+      "tt": 12.8
+    },
+    {
+      "timestamp": 1625876400,
+      "tt": 12.6
+    },
+    {
+      "timestamp": 1625877000,
+      "tt": 13
+    },
+    {
+      "timestamp": 1625877600,
+      "tt": 12.4
+    },
+    {
+      "timestamp": 1625878200,
+      "tt": 12.4
+    },
+    {
+      "timestamp": 1625878800,
+      "tt": 12.3
+    },
+    {
+      "timestamp": 1625879400,
+      "tt": 11.9
+    },
+    {
+      "timestamp": 1625880000,
+      "tt": 12
+    },
+    {
+      "timestamp": 1625880600,
+      "tt": 12.6
+    },
+    {
+      "timestamp": 1625881200,
+      "tt": 12.1
+    },
+    {
+      "timestamp": 1625881800,
+      "tt": 11.8
+    },
+    {
+      "timestamp": 1625882400,
+      "tt": 11.6
+    },
+    {
+      "timestamp": 1625883000,
+      "tt": 11.9
+    },
+    {
+      "timestamp": 1625883600,
+      "tt": 11.8
+    },
+    {
+      "timestamp": 1625884200,
+      "tt": 11.9
+    },
+    {
+      "timestamp": 1625884800,
+      "tt": 11.8
+    },
+    {
+      "timestamp": 1625885400,
+      "tt": 12.1
+    },
+    {
+      "timestamp": 1625886000,
+      "tt": 11.5
+    },
+    {
+      "timestamp": 1625886600,
+      "tt": 12.1
+    },
+    {
+      "timestamp": 1625887200,
+      "tt": 12.2
+    },
+    {
+      "timestamp": 1625887800,
+      "tt": 10.6
+    },
+    {
+      "timestamp": 1625888400,
+      "tt": 11.7
+    },
+    {
+      "timestamp": 1625889000,
+      "tt": 11.2
+    },
+    {
+      "timestamp": 1625889600,
+      "tt": 12.1
+    },
+    {
+      "timestamp": 1625890200,
+      "tt": 12.2
+    },
+    {
+      "timestamp": 1625890800,
+      "tt": 12.2
+    },
+    {
+      "timestamp": 1625891400,
+      "tt": 11.5
+    },
+    {
+      "timestamp": 1625892000,
+      "tt": 11.8
+    },
+    {
+      "timestamp": 1625892600,
+      "tt": 12.1
+    },
+    {
+      "timestamp": 1625893200,
+      "tt": 12.6
+    },
+    {
+      "timestamp": 1625893800,
+      "tt": 12.8
+    },
+    {
+      "timestamp": 1625894400,
+      "tt": 13
+    },
+    {
+      "timestamp": 1625895000,
+      "tt": 13.4
+    },
+    {
+      "timestamp": 1625895600,
+      "tt": 13.5
+    },
+    {
+      "timestamp": 1625896200,
+      "tt": 13.9
+    },
+    {
+      "timestamp": 1625896800,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625897400,
+      "tt": 14.9
+    },
+    {
+      "timestamp": 1625898000,
+      "tt": 15.2
+    },
+    {
+      "timestamp": 1625898600,
+      "tt": 15.8
+    },
+    {
+      "timestamp": 1625899200,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625899800,
+      "tt": 16.2
+    },
+    {
+      "timestamp": 1625900400,
+      "tt": 16.4
+    },
+    {
+      "timestamp": 1625901000,
+      "tt": 16.6
+    },
+    {
+      "timestamp": 1625901600,
+      "tt": 16.6
+    },
+    {
+      "timestamp": 1625902200,
+      "tt": 16.8
+    },
+    {
+      "timestamp": 1625902800,
+      "tt": 17.3
+    },
+    {
+      "timestamp": 1625903400,
+      "tt": 17.4
+    },
+    {
+      "timestamp": 1625904000,
+      "tt": 17.9
+    },
+    {
+      "timestamp": 1625904600,
+      "tt": 18.2
+    },
+    {
+      "timestamp": 1625905200,
+      "tt": 18.2
+    },
+    {
+      "timestamp": 1625905800,
+      "tt": 18.1
+    },
+    {
+      "timestamp": 1625906400,
+      "tt": 18.4
+    },
+    {
+      "timestamp": 1625907000,
+      "tt": 18.7
+    },
+    {
+      "timestamp": 1625907600,
+      "tt": 19.2
+    },
+    {
+      "timestamp": 1625908200,
+      "tt": 19.7
+    },
+    {
+      "timestamp": 1625908800,
+      "tt": 20.2
+    },
+    {
+      "timestamp": 1625909400,
+      "tt": 19.8
+    },
+    {
+      "timestamp": 1625910000,
+      "tt": 20.3
+    },
+    {
+      "timestamp": 1625910600,
+      "tt": 20.5
+    },
+    {
+      "timestamp": 1625911200,
+      "tt": 20.8
+    },
+    {
+      "timestamp": 1625911800,
+      "tt": 21.3
+    },
+    {
+      "timestamp": 1625912400,
+      "tt": 21.4
+    },
+    {
+      "timestamp": 1625913000,
+      "tt": 21.7
+    },
+    {
+      "timestamp": 1625913600,
+      "tt": 21.5
+    },
+    {
+      "timestamp": 1625914200,
+      "tt": 22.2
+    },
+    {
+      "timestamp": 1625914800,
+      "tt": 22.4
+    },
+    {
+      "timestamp": 1625915400,
+      "tt": 22.4
+    },
+    {
+      "timestamp": 1625916000,
+      "tt": 22.2
+    },
+    {
+      "timestamp": 1625916600,
+      "tt": 22.5
+    },
+    {
+      "timestamp": 1625917200,
+      "tt": 22.7
+    },
+    {
+      "timestamp": 1625917800,
+      "tt": 22
+    },
+    {
+      "timestamp": 1625918400,
+      "tt": 22.3
+    },
+    {
+      "timestamp": 1625919000,
+      "tt": 22.7
+    },
+    {
+      "timestamp": 1625919600,
+      "tt": 22.1
+    },
+    {
+      "timestamp": 1625920200,
+      "tt": 23.2
+    },
+    {
+      "timestamp": 1625920800,
+      "tt": 23.4
+    },
+    {
+      "timestamp": 1625921400,
+      "tt": 23.2
+    },
+    {
+      "timestamp": 1625922000,
+      "tt": 23.5
+    },
+    {
+      "timestamp": 1625922600,
+      "tt": 23.7
+    },
+    {
+      "timestamp": 1625923200,
+      "tt": 23.7
+    },
+    {
+      "timestamp": 1625923800,
+      "tt": 23.5
+    },
+    {
+      "timestamp": 1625924400,
+      "tt": 24
+    },
+    {
+      "timestamp": 1625925000,
+      "tt": 23.5
+    },
+    {
+      "timestamp": 1625925600,
+      "tt": 24.2
+    },
+    {
+      "timestamp": 1625926200,
+      "tt": 24.6
+    },
+    {
+      "timestamp": 1625926800,
+      "tt": 24.4
+    },
+    {
+      "timestamp": 1625927400,
+      "tt": 24.7
+    },
+    {
+      "timestamp": 1625928000,
+      "tt": 24.3
+    },
+    {
+      "timestamp": 1625928600,
+      "tt": 24.7
+    },
+    {
+      "timestamp": 1625929200,
+      "tt": 24.6
+    },
+    {
+      "timestamp": 1625929800,
+      "tt": 24.1
+    },
+    {
+      "timestamp": 1625930400,
+      "tt": 24
+    },
+    {
+      "timestamp": 1625931000,
+      "tt": 23.8
+    },
+    {
+      "timestamp": 1625931600,
+      "tt": 24.6
+    },
+    {
+      "timestamp": 1625932200,
+      "tt": 24.5
+    },
+    {
+      "timestamp": 1625932800,
+      "tt": 24.6
+    },
+    {
+      "timestamp": 1625933400,
+      "tt": 24.9
+    },
+    {
+      "timestamp": 1625934000,
+      "tt": 24.8
+    },
+    {
+      "timestamp": 1625934600,
+      "tt": 24.7
+    },
+    {
+      "timestamp": 1625935200,
+      "tt": 24.3
+    },
+    {
+      "timestamp": 1625935800,
+      "tt": 23.4
+    },
+    {
+      "timestamp": 1625936400,
+      "tt": 23.4
+    },
+    {
+      "timestamp": 1625937000,
+      "tt": 23.5
+    },
+    {
+      "timestamp": 1625937600,
+      "tt": 22.8
+    },
+    {
+      "timestamp": 1625938200,
+      "tt": 22
+    },
+    {
+      "timestamp": 1625938800,
+      "tt": 21.1
+    },
+    {
+      "timestamp": 1625939400,
+      "tt": 20.6
+    },
+    {
+      "timestamp": 1625940000,
+      "tt": 20.6
+    },
+    {
+      "timestamp": 1625940600,
+      "tt": 18.7
+    },
+    {
+      "timestamp": 1625941200,
+      "tt": 16.8
+    },
+    {
+      "timestamp": 1625941800,
+      "tt": 15.7
+    },
+    {
+      "timestamp": 1625942400,
+      "tt": 15.7
+    },
+    {
+      "timestamp": 1625943000,
+      "tt": 15.6
+    },
+    {
+      "timestamp": 1625943600,
+      "tt": 15.3
+    },
+    {
+      "timestamp": 1625944200,
+      "tt": 15.3
+    },
+    {
+      "timestamp": 1625944800,
+      "tt": 15.3
+    },
+    {
+      "timestamp": 1625945400,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625946000,
+      "tt": 15.6
+    },
+    {
+      "timestamp": 1625946600,
+      "tt": 15.7
+    },
+    {
+      "timestamp": 1625947200,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625947800,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625948400,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625949000,
+      "tt": 15.2
+    },
+    {
+      "timestamp": 1625949600,
+      "tt": 15.4
+    },
+    {
+      "timestamp": 1625950200,
+      "tt": 15.2
+    },
+    {
+      "timestamp": 1625950800,
+      "tt": 15.1
+    },
+    {
+      "timestamp": 1625951400,
+      "tt": 15
+    },
+    {
+      "timestamp": 1625952000,
+      "tt": 15
+    },
+    {
+      "timestamp": 1625952600,
+      "tt": 14.9
+    },
+    {
+      "timestamp": 1625953200,
+      "tt": 14.9
+    },
+    {
+      "timestamp": 1625953800,
+      "tt": 14.9
+    },
+    {
+      "timestamp": 1625954400,
+      "tt": 14.9
+    },
+    {
+      "timestamp": 1625955000,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625955600,
+      "tt": 14.8
+    },
+    {
+      "timestamp": 1625956200,
+      "tt": 14.7
+    },
+    {
+      "timestamp": 1625956800,
+      "tt": 14.2
+    },
+    {
+      "timestamp": 1625957400,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625958000,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625958600,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625959200,
+      "tt": 14.2
+    },
+    {
+      "timestamp": 1625959800,
+      "tt": 14.2
+    },
+    {
+      "timestamp": 1625960400,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625961000,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625961600,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625962200,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625962800,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625963400,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625964000,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625964600,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625965200,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625965800,
+      "tt": 14.7
+    },
+    {
+      "timestamp": 1625966400,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625967000,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625967600,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625968200,
+      "tt": 14.6
+    },
+    {
+      "timestamp": 1625968800,
+      "tt": 14.5
+    },
+    {
+      "timestamp": 1625969400,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625970000,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625970600,
+      "tt": 14.3
+    },
+    {
+      "timestamp": 1625971200,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625971800,
+      "tt": 13.9
+    },
+    {
+      "timestamp": 1625972400,
+      "tt": 14
+    },
+    {
+      "timestamp": 1625973000,
+      "tt": 13.1
+    },
+    {
+      "timestamp": 1625973600,
+      "tt": 13.6
+    },
+    {
+      "timestamp": 1625974200,
+      "tt": 13.7
+    },
+    {
+      "timestamp": 1625974800,
+      "tt": 13.7
+    },
+    {
+      "timestamp": 1625975400,
+      "tt": 14
+    },
+    {
+      "timestamp": 1625976000,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625976600,
+      "tt": 13.9
+    },
+    {
+      "timestamp": 1625977200,
+      "tt": 14
+    },
+    {
+      "timestamp": 1625977800,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625978400,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625979000,
+      "tt": 14
+    },
+    {
+      "timestamp": 1625979600,
+      "tt": 14
+    },
+    {
+      "timestamp": 1625980200,
+      "tt": 14.1
+    },
+    {
+      "timestamp": 1625980800,
+      "tt": 14.4
+    },
+    {
+      "timestamp": 1625981400,
+      "tt": 14.7
+    },
+    {
+      "timestamp": 1625982000,
+      "tt": 15.2
+    },
+    {
+      "timestamp": 1625982600,
+      "tt": 15.2
+    },
+    {
+      "timestamp": 1625983200,
+      "tt": 15
+    },
+    {
+      "timestamp": 1625983800,
+      "tt": 15.1
+    },
+    {
+      "timestamp": 1625984400,
+      "tt": 15.1
+    },
+    {
+      "timestamp": 1625985000,
+      "tt": 15.7
+    },
+    {
+      "timestamp": 1625985600,
+      "tt": 15.5
+    },
+    {
+      "timestamp": 1625986200,
+      "tt": 16.4
+    },
+    {
+      "timestamp": 1625986800,
+      "tt": 16.1
+    },
+    {
+      "timestamp": 1625987400,
+      "tt": 15.9
+    },
+    {
+      "timestamp": 1625988000,
+      "tt": 16.8
+    },
+    {
+      "timestamp": 1625988600,
+      "tt": 16.1
+    },
+    {
+      "timestamp": 1625989200,
+      "tt": 16.4
+    },
+    {
+      "timestamp": 1625989800,
+      "tt": 16.4
+    },
+    {
+      "timestamp": 1625990400,
+      "tt": 16.7
+    },
+    {
+      "timestamp": 1625991000,
+      "tt": 17
+    },
+    {
+      "timestamp": 1625991600,
+      "tt": 16.8
+    },
+    {
+      "timestamp": 1625992200,
+      "tt": 17.4
+    },
+    {
+      "timestamp": 1625992800,
+      "tt": 17
+    },
+    {
+      "timestamp": 1625993400,
+      "tt": 17.3
+    },
+    {
+      "timestamp": 1625994000,
+      "tt": 17.8
+    },
+    {
+      "timestamp": 1625994600,
+      "tt": 17.6
+    },
+    {
+      "timestamp": 1625995200,
+      "tt": 18.4
+    },
+    {
+      "timestamp": 1625995800,
+      "tt": 18.1
+    },
+    {
+      "timestamp": 1625996400,
+      "tt": 18.8
+    },
+    {
+      "timestamp": 1625997000,
+      "tt": 18.9
+    },
+    {
+      "timestamp": 1625997600,
+      "tt": 19.1
+    },
+    {
+      "timestamp": 1625998200,
+      "tt": 19.8
+    },
+    {
+      "timestamp": 1625998800,
+      "tt": 20
+    },
+    {
+      "timestamp": 1625999400,
+      "tt": 19
+    },
+    {
+      "timestamp": 1626000000,
+      "tt": 19.2
+    },
+    {
+      "timestamp": 1626000600,
+      "tt": 19.7
+    },
+    {
+      "timestamp": 1626001200,
+      "tt": 19.9
+    },
+    {
+      "timestamp": 1626001800,
+      "tt": 20
+    }
+  ],
+  "sun": {
+    "today": {
+      "suntotal": "10:57",
+      "sunrelative": 70
+    },
+    "forecast": {
+      "1": {
+        "day": "Mänti",
+        "dayshort": "Mo.",
+        "suntotal": "6:00",
+        "sunrelative": 39
+      },
+      "2": {
+        "day": "Zischti",
+        "dayshort": "Di.",
+        "suntotal": "0:08",
+        "sunrelative": 1
+      },
+      "3": {
+        "day": "Mitwuch",
+        "dayshort": "Mi.",
+        "suntotal": "0:58",
+        "sunrelative": 7
+      },
+      "4": {
+        "day": "Donschti",
+        "dayshort": "Do.",
+        "suntotal": "0:46",
+        "sunrelative": 5
+      }
+    },
+    "sunlocations": [
+      {
+        "name": "Eichholz",
+        "sunrise": 1625980800,
+        "sunriselocal": "07:20",
+        "sunset": 1626022140,
+        "sunsetlocal": "18:49",
+        "timeleft": 19252,
+        "timeleftstring": "5:20:52"
+      },
+      {
+        "name": "Marzili",
+        "sunrise": 1625980140,
+        "sunriselocal": "07:09",
+        "sunset": 1626024900,
+        "sunsetlocal": "19:35",
+        "timeleft": 22012,
+        "timeleftstring": "6:06:52"
+      },
+      {
+        "name": "Lorraine",
+        "sunrise": 1625991900,
+        "sunriselocal": "10:25",
+        "sunset": 1626023820,
+        "sunsetlocal": "19:17",
+        "timeleft": 20932,
+        "timeleftstring": "5:48:52"
+      }
+    ]
+  },
+  "bueber": {
+    "state": "closed",
+    "state_open_flag": false,
+    "source": "badmeister",
+    "time": 1625499366
+  },
+  "notification": null
+}

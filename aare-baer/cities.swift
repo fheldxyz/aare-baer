@@ -25,16 +25,16 @@ typealias Cities = [City]
 
 
 class CityData: Codable, ObservableObject {
+    
     @Published var cities: Cities
 
-    var test = Cities()
 
     enum CodingKeys: CodingKey {
         case cities
     }
 
     func loadfromAPI() {
-        let url = URL(string: "https://aareguru.existenz.ch/v2018/cities?app=xyz.fheld.aare-b%C3%A4r&version=0.0.1")! //change to ä
+        let url = URL(string: "https://aareguru.existenz.ch/v2018/cities?app=xyz.fheld.aare-baer&version=0.0.1")! //change to ä
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
@@ -43,7 +43,7 @@ class CityData: Codable, ObservableObject {
             }
 
             guard let decoded = try? JSONDecoder().decode(Cities.self, from: data) else {
-                print("decoding of data from api failed")
+                print("decoding of cities-data from api failed")
                 return
             }
             DispatchQueue.main.async {
