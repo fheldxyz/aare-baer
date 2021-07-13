@@ -26,30 +26,22 @@ struct ContentView: View {
             .tabItem {
                 Image(systemName: "thermometer")
             }
-            VStack {
-                Text("\(cities.cities[3].aare_prec)")
-                
-                Button("load") {
-                    cities.loadfromAPI()
-                    current.loadfromAPI()
-                }
-            
-            }
+            wetter(current: current)
                 .tabItem {
                     Image(systemName: "cloud.drizzle")
                 }
 
-            Text("3")
+            sonne(current: current)
                 .tabItem {
                     Image(systemName: "sun.max")
                 }
 
-            Text("4")
+            statistik(current: current)
                 .tabItem {
                     Image(systemName: "chart.bar")
                 }
 
-            Text("5")
+            infos(current: current)
                 .tabItem {
                     Image(systemName: "info.circle")
                 }

@@ -14,7 +14,7 @@ struct CurrentStruct: Codable {
     var weather: Weather
     var weatherpast: [Weatherpast]
     var sun: Sun
-    var bueber: Bueber
+    var bueber: Bueber?
     //var notification: JSONNull?
 }
 
@@ -175,7 +175,7 @@ class CurrentData: Codable, ObservableObject {
     
     
     func loadfromAPI() {
-        let url = URL(string: "https://aareguru.existenz.ch/v2018/current?city=bern&app=xyz.fheld.aare-baer&version=0.0.1")!
+        let url = URL(string: "https://aareguru.existenz.ch/v2018/current?city=thun&app=xyz.fheld.aare-baer&version=0.0.1")!
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {

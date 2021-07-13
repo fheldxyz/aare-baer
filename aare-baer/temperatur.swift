@@ -62,7 +62,7 @@ struct temperatur: View {
                         Text("Kanau")
                             .font(.custom("DIN Condensed Bold", size: 18))
                             .foregroundColor(aarefontblue)
-                        if current.current.bueber.state_open_flag {
+                        if current.current.bueber?.state_open_flag ?? false {
                             Image(systemName: "checkmark.circle.fill")
                                 .foregroundColor(aarefontblue)
                                 .font(.system(size: 60))
@@ -71,10 +71,12 @@ struct temperatur: View {
                             Image(systemName: "minus.circle.fill")
                                 .renderingMode(.original)
                                 .font(.system(size: 60))
+                                
                         }
                         
                         
-                    }
+                    }.opacity(current.current.bueber == nil ? 0.0  : 1.0)
+                    
                     
                     VStack {
                         Text("\(current.current.weather.current.tt, specifier: "%.1f")°")

@@ -17,6 +17,10 @@
 		CE046B032699CC36002914EC /* temperatur.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B022699CC36002914EC /* temperatur.swift */; };
 		CE046B07269B0D70002914EC /* current.json in Resources */ = {isa = PBXBuildFile; fileRef = CE046B06269B0D70002914EC /* current.json */; };
 		CE046B09269B0E16002914EC /* current.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B08269B0E16002914EC /* current.swift */; };
+		CE046B0B269C2C0A002914EC /* wetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B0A269C2C0A002914EC /* wetter.swift */; };
+		CE046B0D269C2C12002914EC /* sonne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B0C269C2C12002914EC /* sonne.swift */; };
+		CE046B0F269C2C1B002914EC /* statistik.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B0E269C2C1B002914EC /* statistik.swift */; };
+		CE046B11269C2C23002914EC /* infos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE046B10269C2C23002914EC /* infos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		CE046B022699CC36002914EC /* temperatur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperatur.swift; sourceTree = "<group>"; };
 		CE046B06269B0D70002914EC /* current.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = current.json; sourceTree = "<group>"; };
 		CE046B08269B0E16002914EC /* current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = current.swift; sourceTree = "<group>"; };
+		CE046B0A269C2C0A002914EC /* wetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wetter.swift; sourceTree = "<group>"; };
+		CE046B0C269C2C12002914EC /* sonne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sonne.swift; sourceTree = "<group>"; };
+		CE046B0E269C2C1B002914EC /* statistik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statistik.swift; sourceTree = "<group>"; };
+		CE046B10269C2C23002914EC /* infos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				CE046AEC269991A7002914EC /* aare_baerApp.swift */,
 				CE046AEE269991A7002914EC /* ContentView.swift */,
 				CE046B022699CC36002914EC /* temperatur.swift */,
+				CE046B0A269C2C0A002914EC /* wetter.swift */,
+				CE046B0C269C2C12002914EC /* sonne.swift */,
+				CE046B0E269C2C1B002914EC /* statistik.swift */,
+				CE046B10269C2C23002914EC /* infos.swift */,
 				CE046AFD2699927F002914EC /* bundle-decode.swift */,
 				CE046AFF26999298002914EC /* cities.swift */,
 				CE046B08269B0E16002914EC /* current.swift */,
@@ -160,10 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE046B0F269C2C1B002914EC /* statistik.swift in Sources */,
+				CE046B11269C2C23002914EC /* infos.swift in Sources */,
 				CE046B0026999299002914EC /* cities.swift in Sources */,
+				CE046B0D269C2C12002914EC /* sonne.swift in Sources */,
 				CE046B09269B0E16002914EC /* current.swift in Sources */,
 				CE046AFE2699927F002914EC /* bundle-decode.swift in Sources */,
 				CE046AEF269991A7002914EC /* ContentView.swift in Sources */,
+				CE046B0B269C2C0A002914EC /* wetter.swift in Sources */,
 				CE046AED269991A7002914EC /* aare_baerApp.swift in Sources */,
 				CE046B032699CC36002914EC /* temperatur.swift in Sources */,
 			);
