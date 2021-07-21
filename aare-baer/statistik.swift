@@ -12,7 +12,17 @@ struct statistik: View {
     @ObservedObject var current: CurrentData
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Path { path in
+            path.move(to: CGPoint(x: 0, y: 250))
+            path.addLine(to: CGPoint(x: 50, y: 200))
+            path.addLine(to: CGPoint(x: 100, y: 225))
+            path.addLine(to: CGPoint(x: 150, y: 145))
+            path.addLine(to: CGPoint(x: 200, y: 155))
+            path.addLine(to: CGPoint(x: 250, y: 105))
+            path.addLine(to: CGPoint(x: 300, y: 145))
+        }
+        .stroke(Color.blue)
+        .frame(width: 300, height: 300, alignment: .center)
     }
 }
 

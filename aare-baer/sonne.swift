@@ -11,8 +11,16 @@ struct sonne: View {
     
     @ObservedObject var current: CurrentData
     
+    let aarefontblue = Color(red: 0, green: 111.0/255.0, blue: 186.0/255.0)
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color(red: 1, green: 231.0/255.0, blue: 0.0)
+                .ignoresSafeArea()
+            Text(current.current.sun.today.suntotal)
+                .font(.custom("DIN Condensed Bold", size: 90))
+                .foregroundColor(aarefontblue)
+        }
     }
 }
 
