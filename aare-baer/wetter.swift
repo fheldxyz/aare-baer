@@ -36,7 +36,7 @@ struct wetter: View {
             
             VStack {
                 HStack {
-                    Text("\(current.current.weather.current.tt, specifier: "%.1f")°")
+                    Text("\(current.current.weather.current.tt, specifier: "%.1f")°  ")
                     Text("\(current.current.weather.current.rr) mm")
                 }
                 .font(.custom("DIN Condensed Bold", size: 50))
@@ -48,25 +48,27 @@ struct wetter: View {
                     .foregroundColor(aarefontblue)
                     
                 LazyVGrid(columns: columnsToday, alignment: .leading, spacing: 20) {
+                    
+                    
                     Group {
                         Text("Hüt morge")
                         Image(systemName: "cloud.sun")
-                        Text("19°")
-                        Text("0 mm")
+                        Text("\(current.current.weather.today.v.tt)°")
+                        Text("\(current.current.weather.today.v.rr) mm")
                     }
                     
                     Group {
                         Text("Hüt nami")
                         Image(systemName: "cloud")
-                        Text("20°")
-                        Text("1 mm")
+                        Text("\(current.current.weather.today.n.tt)°")
+                        Text("\(current.current.weather.today.n.rr) mm")
                     }
                     
                     Group {
                         Text("Hüt abe")
                         Image(systemName: "sun.max")
-                        Text("21°")
-                        Text("23 mm")
+                        Text("\(current.current.weather.today.a.tt)°")
+                        Text("\(current.current.weather.today.a.rr) mm")
                     }
 
                 }
@@ -76,58 +78,42 @@ struct wetter: View {
                 
                 
                 HStack {
-                    VStack {
-                        Text("Mittwuch")
-                        
-                        
-                        Image(systemName: "sun.max")
-                            .padding()
-                        HStack {
-                            Text("11°")
-                            Text("17°")
-                        }
-                        
-                        Text("10mm")
-                        Text("90%")
-                    }
-                    .padding()
-                    VStack {
-                        Text("Donsti")
-                        
-                        
-                        Image(systemName: "cloud")
-                            .padding()
-                        HStack {
-                            Text("11°")
-                            Text("17°")
-                        }
-                        
-                        Text("10mm")
-                        Text("90%")
-                    }
-                    .padding()
-                    VStack {
-                        Text("Friti")
-                        
-                        Image(systemName: "cloud.sun")
-                            .padding()
-                        HStack {
-                            Text("11°")
-                            Text("17°")
-                        }
-                        
-                        Text("10mm")
-                        Text("90%")
-                    }
-                    .padding()
+                    verticalDailyWeather(dayIndex: 0, current: current)
+                    verticalDailyWeather(dayIndex: 1, current: current)
+                    verticalDailyWeather(dayIndex: 2, current: current)
                 }
                 
                 .foregroundColor(aarefontblue)
                 .font(.custom("DIN Condensed Bold", size: 22))
                 
             }
+            .frame(maxWidth: 400)
             
         }
+    }
+}
+
+struct verticalDailyWeather: View {
+    
+    let dayIndex: Int
+    
+    @ObservedObject var current: CurrentData
+    
+    var body: some View {
+        VStack {
+            Text(current.current.weather.forecast[dayIndex].day)
+            
+            Image(systemName: "cloud.sun")
+                .padding()
+            HStack {
+                Text("\(current.current.weather.forecast[dayIndex].tn)°")
+                Text("\(current.current.weather.forecast[dayIndex].tx)°")
+            }
+            
+            Text("\(current.current.weather.forecast[dayIndex].rr)mm")
+            Text("\(current.current.weather.forecast[dayIndex].rrisk)%")
+        }
+        .padding()
     }
 }
 
