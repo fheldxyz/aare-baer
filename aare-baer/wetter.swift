@@ -7,6 +7,25 @@
 
 import SwiftUI
 
+let weatherIcon = [
+1:"sun.max",
+2:"cloud.sun",
+3:"cloud.sun",
+4:"cloud",
+5:"cloud.sun.bolt",
+6:"cloud.heavyrain",
+7:"cloud.snow",
+8:"cloud.fog",
+9:"cloud.sleet",
+10:"cloud.sun.rain",
+11:"cloud.drizzle",
+12:"cloud.snow",
+13:"cloud.bolt.rain",
+14:"cloud",
+15:"cloud.sleet"
+]
+
+
 struct wetter: View {
     
     @ObservedObject var current: CurrentData
@@ -52,21 +71,21 @@ struct wetter: View {
                     
                     Group {
                         Text("Hüt morge")
-                        Image(systemName: "cloud.sun")
+                        Image(systemName: weatherIcon[current.current.weather.today.v.symt]  ?? "questionmark.circle")
                         Text("\(current.current.weather.today.v.tt)°")
                         Text("\(current.current.weather.today.v.rr) mm")
                     }
                     
                     Group {
                         Text("Hüt nami")
-                        Image(systemName: "cloud")
+                        Image(systemName: weatherIcon[current.current.weather.today.n.symt]  ?? "questionmark.circle")
                         Text("\(current.current.weather.today.n.tt)°")
                         Text("\(current.current.weather.today.n.rr) mm")
                     }
                     
                     Group {
                         Text("Hüt abe")
-                        Image(systemName: "sun.max")
+                        Image(systemName: weatherIcon[current.current.weather.today.a.symt]  ?? "questionmark.circle")
                         Text("\(current.current.weather.today.a.tt)°")
                         Text("\(current.current.weather.today.a.rr) mm")
                     }
@@ -103,14 +122,14 @@ struct verticalDailyWeather: View {
         VStack {
             Text(current.current.weather.forecast[dayIndex].day)
             
-            Image(systemName: "cloud.sun")
+            Image(systemName: weatherIcon[current.current.weather.forecast[dayIndex].symt]  ?? "questionmark.circle")
                 .padding()
             HStack {
                 Text("\(current.current.weather.forecast[dayIndex].tn)°")
                 Text("\(current.current.weather.forecast[dayIndex].tx)°")
             }
             
-            Text("\(current.current.weather.forecast[dayIndex].rr)mm")
+            Text("\(current.current.weather.forecast[dayIndex].rr) mm")
             Text("\(current.current.weather.forecast[dayIndex].rrisk)%")
         }
         .padding()
