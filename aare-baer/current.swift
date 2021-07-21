@@ -54,7 +54,7 @@ struct Scale: Codable {
 // MARK: - Aarepast
 struct Aarepast: Codable {
     var timestamp, flow: Int
-    var temperature: Double
+    var temperature: Double?
 }
 
 // MARK: - Bueber
@@ -174,8 +174,8 @@ class CurrentData: Codable, ObservableObject {
     }
     
     
-    func loadfromAPI() {
-        let url = URL(string: "https://aareguru.existenz.ch/v2018/current?city=thun&app=xyz.fheld.aare-baer&version=0.0.1")!
+    func loadfromAPI(ort:String = "bern") {
+        let url = URL(string: "https://aareguru.existenz.ch/v2018/current?city=\(ort)&app=xyz.fheld.aare-baer&version=0.0.1")!
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let data = data else {
@@ -183,6 +183,7 @@ class CurrentData: Codable, ObservableObject {
                 return
             }
             guard let decoded = try? JSONDecoder().decode(CurrentStruct.self, from: data) else {
+                print("URL: ", url)
                 print("decoing of current-data from api failed")
                 return
             }

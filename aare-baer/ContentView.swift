@@ -16,6 +16,7 @@ struct ContentView: View {
     
     let aareblue = Color(red: 10.0/255.0, green: 230.0/255.0, blue: 1.0)
     
+    @State var cityselection = "bern"
     @ObservedObject var cities = CityData()
     @ObservedObject var current = CurrentData()
     
@@ -41,7 +42,7 @@ struct ContentView: View {
                     Image(systemName: "chart.bar")
                 }
 
-            infos(current: current)
+            infos(ort: $cityselection, current: current)
                 .tabItem {
                     Image(systemName: "info.circle")
                 }
