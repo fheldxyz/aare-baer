@@ -44,10 +44,6 @@ struct infos: View {
                                 }
                             }
                     )
-                    .onChange(of: ort, perform: { value in
-                        UserDefaults.standard.set(value, forKey: "ort")
-                        print("hi") //add api call here
-                    })
                     
                 }
             }

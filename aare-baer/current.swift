@@ -182,6 +182,9 @@ class CurrentData: Codable, ObservableObject {
                 print("data not recieved, error: \(error?.localizedDescription ?? "error has value nil")")
                 return
             }
+            
+            UserDefaults.standard.set(data, forKey: "latestCurrentData")
+            
             guard let decoded = try? JSONDecoder().decode(CurrentStruct.self, from: data) else {
                 print("URL: ", url)
                 print("decoing of current-data from api failed")
@@ -206,6 +209,20 @@ class CurrentData: Codable, ObservableObject {
     
     init() {
         self.current = Bundle.main.decode(file: "current.json")
+        
+        guard let data = UserDefaults.standard.data(forKey: "latestCurrentData") else {
+            print("the data could not be loaded for the key latestCurrentData form UserDefaults")
+            return
+        }
+        
+        guard let decoded = try? JSONDecoder().decode(CurrentStruct.self, from: data) else {
+            print("decoing of current-data from UserDefaults failed")
+            return
+        }
+        
+        DispatchQueue.main.async {
+            self.current = decoded
+        }
     }
     
 }
