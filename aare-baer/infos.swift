@@ -14,31 +14,44 @@ struct infos: View {
     @ObservedObject var current: CurrentData
     
     let citylist = ["brienz","interlaken","thun","bern","hagneck","biel","brugg"]
+    let cityDict = [
+        "brienz":"Brienz",
+        "interlaken":"Interlake",
+        "thun":"Thun",
+        "bern":"Bärn",
+        "hagneck":"Hagneck",
+        "biel":"Biu",
+        "brugg":"Brugg AG"
+    ]
     
     var body: some View {
-        VStack {
-            Text("\(current.current.aare.temperature_prec, specifier: "%.2f")°")
-            
-            Button("load from Api (\(ort))") {
-                current.loadfromAPI(ort: ort)
-                
-            }
-            
-            List {
+ 
+        NavigationView {
+            Form {
                 Section {
+                    Text("\(current.current.aare.temperature_prec, specifier: "%.2f")°")
+                    Button("load from Api (\(ort))") {
+                        current.loadfromAPI(ort: ort)
+                    }
+                }
+                Section {
+                    
                     Picker(selection: $ort, label:
                         Text("Hie chasch dr Ort uswähle"), content:
                             {
-                            ForEach(citylist, id:\.self) { city in
-                                Text(city)
+                                ForEach(citylist, id:\.self) { city in
+                                    Text(cityDict[city]!)
+                                }
                             }
+                    )
+                    .onChange(of: ort, perform: { value in
+                        UserDefaults.standard.set(value, forKey: "ort")
+                        print("hi") //add api call here
                     })
-                    .pickerStyle(InlinePickerStyle())
+                    
                 }
             }
-            
         }
-
     }
 }
 

@@ -16,7 +16,7 @@ struct ContentView: View {
     
     let aareblue = Color(red: 10.0/255.0, green: 230.0/255.0, blue: 1.0)
     
-    @State var cityselection = "bern"
+    @State var cityselection = UserDefaults.standard.string(forKey: "ort") ?? "bern"
     @ObservedObject var cities = CityData()
     @ObservedObject var current = CurrentData()
     
